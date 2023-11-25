@@ -10,12 +10,23 @@ body {
     text-align: center;
     font-size: 30px;
     transform: translateY(-30px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
     }
 
-.form input{
-text-align: left;
+.registro {
+    padding-right:  90%;
+
 }
+
+
+.formato {
+    position:relative;
+    left: -0%;
+    padding-right:  88%;
+  
     
+}
 
 .formulario{
     position: absolute;
@@ -29,7 +40,7 @@ text-align: left;
 
 .formulario h1 {
     text-align: center;
-    padding: 0 0 10px 0;
+    padding: 0 0 9px 0;
     border-bottom: 1px solid silver;
     color: #06d1a5;
 }
@@ -38,6 +49,10 @@ text-align: left;
     padding: 0 40px;
     box-sizing: border-box;
 
+}
+
+.Principal{
+    background: linear-gradient( 150deg, #06d1a5, #0648aa );
 }
 
 form.username{
@@ -92,7 +107,7 @@ form.username{
 
 .recordar{
     margin: -5px 0 20px 5px;
-    color: rgb(32, 180, 180);
+    color: rgb(10, 100, 218);
     cursor: pointer;
     text-align: center;
     
@@ -104,7 +119,7 @@ form.username{
 
 .registrarse{
     margin: -5px 0 20px 5px;
-    color: #06d1a5;
+    color: #0896d8;
     cursor: pointer;
     text-align: center;
 }
